@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #f8dbe0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff7b7b;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 36px;
+            margin: 0;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ff7b7b;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .no-button {
+            display: inline-block;
+        }
+        .no-button:hover {
+              animation: moveButton 2s;
+        }
+        @keyframes moveButton {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(20px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🌹 Be My Valentine? 🌹</h1>
+    </header>
+
+    <main>
+        <p>Loveeeeee</p>
+
+        <p>Will you be my valentine?? pleasee..!</p>
+
+        <img src="val3.jpg">
+        <br>
+        <button onclick="alert('yayyyyyy!!')">Yesss!</button>
+        <button class="no-button" onclick="handleNoClick()">Nooo:<</button>
+    </main>
+
+    <script>
+        function handleNoClick() {
+            alert('No no no this is not an option!!');
+        }
+    </script>
+
+</body>
+</html>
